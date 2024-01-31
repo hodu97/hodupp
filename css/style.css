@@ -816,7 +816,7 @@ body {
     flex-direction: column;
     background-color: #000;
     overflow: hidden;
-
+    padding-bottom: 5vw;
 }
 
 #page3 h1 {
