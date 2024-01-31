@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@i_m hoduyam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- remixcon.css -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- 24.1.30 포폴 수정2완 -->
+    <div class="progress" id="progress">
+        <span class="progress-bar"></span>
+        <span class="progress-text">0%</span>
+    </div>
+
+    <div class="notice">
+
+        <p>⭐NOTICE⭐</p>
+        <p>"본사이트는 크롬 해상도 1920 X 1080에 최적화 되어있습니다. <br>
+            본사이트는 포토폴리오용이며 <br> 크롬이나 사파리, 엣지에서 확인해 주시기 바랍니다.
+            <br>
+            감사합니다.💜"</p>
+        <input type="checkbox" id="cb">
+        <label class="hide" for="cb">7일간 보이지 않기</label>
+        <a href="#" class="close">닫기</a>
+    </div>
+
+
+    <div class="cursor"></div>
+    <div id="nav">
+        <h1>@ i_m hoduyam</h1>
+        <div class="nav-part2">
+            <h4><a href="#page1">HOME</a></h4>
+            <h4><a href="#page2">INTRODUCE ME</a></h4>
+            <h4><a href="#page4">RENEWAL</a></h4>
+            <h4><a href="#page3">PROJECT</a></h4>
+            <h4><a href="#page5">WEB PUBLISHING</a></h4>
+            <h4><a href="#page7">CONTENTS</a></h4>
+            <h4><a href="#page6">CONTACT</a></h4>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div id="page1">
+
+            <h1>한계없는 성장으로</h1>
+            <h2>내일의 가능성을 열겠습니다.</h2>
+            <video autoplay muted loop src="img/video 1.mp4"></video>
+        </div> <!-- page1 -->
+
+        <div id="page2">
+
+            <h1>INTRODUCE ME</h1>
+            <div class="page2-container">
+                <div class="cont-top">
+                    <section class="customer">
+                        <img class="cstimg1" src="img/profile-1.png" alt="">
+                        <h2 class="tit">
+                            <span>#이구역 소통왕</span>
+                            <span>#공격적인 발랄함</span>
+                            <span>#밈 장인</span>
+                        </h2> <!-- tit -->
+                        <div class="txt">
+                            좋아하는 일을 위해 정체되어있지 않고 더 발전하기 위해 항상 노력하고자 합니다.
+                        </div>
+                    </section><!-- customer -->
+                </div> <!-- cont-top -->
+                <div class="cont-bottom">
+                    <div class="ab-tag">
+                        <img class="arrow"
+                            src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/61001a3509319b6ae39e156b_arrow-long.svg"
+                            alt="">
+                        <span>CLICK HERE !!</span>
+                    </div>
+
+                    <div class="pro-box">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openCont(event,'education')">EDUCATION</button>
+                            <button class="tablinks" onclick="openCont(event,'experience')">EXPERIENCE</button>
+                            <button class="tablinks" id="defaultOpen" onclick="openCont(event,'skill')">SKILL</button>
+                        </div> <!-- tab -->
+                        <div id="education" class="tabcontent">
+                            <img src="img/profile-2.jpg" alt="">
+                            <div class="ed-txt">
+                                <p>
+                                    화명고등학교 졸업
+                                </p>
+                                <p class="ch">
+                                    中国 山东省 烟台大学 国际教育交流学院 汉语语言科
+                                </p>
+                                <p>2022 중국 산동성 연태대학교 대외한어과 본과 수료</p>
+                                <p>2022 디지털 퍼포먼스 마케터 양성과정 280시간 수료</p>
+                                <p>2023 UI/UX 반응형 웹디자인&웹퍼블리셔 <br> (디자인&코딩) 양성과정 수료</p>
+                            </div>
+                        </div> <!-- #education -->
+
+                        <div id="experience" class="tabcontent">
+                            <img src="img/KakaoTalk_20240123_110707456.jpg" alt="">
+                            <div class="ex-txt">
+                                <p>2020 뮤토리 R3 영상공모전 영상 기획,출연 3등상 수상</p>
+                                <p>2022 인스타그램'샐러드아삭'계정 기획 및 운영</p>
+                                <p>2022 한국추진공학회 NURA 홍보 영상 기획 제작</p>
+                                <p>2022 오렌토 제안서 아이디어 공모전 2등상 수상</p>
+                                <p>2022 YBM 중국어 카드뉴스 기획，유튜브 썸네일 제작</p>
+                                <p>2022-2023 나무커뮤니케이션 광고기획 AE 매니저 </p>
+                            </div>
+                        </div> <!-- #experience -->
+
+                        <div id="skill" class="tabcontent">
+                            <img src="img/KakaoTalk_20240123_111132493.jpg" alt="">
+                            <div class="skills">
+                                <div class="skill">
+                                    <div class="skill-name">HTML</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb1" per="88"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name">CSS</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb2" per="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name">JavaScript</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb3" per="75"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill">
+                                    <div class="skill-name">중국어</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb5" per="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name">DESIGN (포토샵,일러스트,프리미어프로)</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb6" per="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name">FIGMA</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb6" per="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name">PPT</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per sb5" per="95"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- #skill -->
+                    </div> <!-- pro-box -->
+                    <div class="pro-self">
+                        <img src="img/124img1.png" alt="">
+                        <div class="self-txt">
+                            <h2>Charactor</h2>
+                            <div class="setleft">
+                                <div class="sett">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>내성적</p>
+                                <div class="sett2">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>부정적</p>
+                                <div class="sett3">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>즉흥적</p>
+                                <div class="sett4">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>감성적</p>
+                            </div>
+                            <div class="setright">
+                                <div class="setrr">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>외향적</p>
+                                <div class="setrr2">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>긍정적</p>
+                                <div class="setrr3">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>계획적</p>
+                                <div class="setrr4">
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                    <div class="zerobox"></div>
+                                </div>
+                                <p>이성적</p>
+                            </div>
+                        </div>
+
+                        <div class="sc1">
+                            <h5>센스</h5>
+                        </div>
+                        <div class="sc2">
+                            <h5>긍정적 <br>에너지</h5>
+                        </div>
+                        <div class="sc3">
+                            <h5>빠른 <br>습득력</h5>
+                        </div>
+                        <div class="sc4">
+                            <h5>소통</h5>
+                        </div>
+                    </div>
+                </div> <!-- cont-bottom -->
+
+            </div> <!-- page2-container -->
+
+        </div> <!-- page2 -->
+
+
+        <div id="page4">
+            <h1>RENEWAL</h1>
+            <div class="re-cont">
+                <div class="Dior">
+                    <video autoplay muted loop src="img/제목 없는 동영상 - Clipchamp로 제작.mp4"></video>
+                    <div class="info-txt">
+                        <img src="img/logo2 1.png" alt="">
+                        <h2>크리스찬 디올 웹페이지</h2>
+                        <p>크리스찬 디올의 웹페이지를 만들었습니다. <br> 기존 페이지의 상품소개 위주의 페이지를 줄이고 <br> 브랜드 아이덴티티와 색감을 javascript로 활용하여
+                            <br>
+                            다양한 효과를 직관적으로
+                            리뉴얼했습니다.</p>
+                        <span> TOOL : HTML & CSS & JAVA SCRIPT & SPLINE </span>
+                        <div class="sitebtn">
+                            <button><a href="https://www.dior.com/ko_kr/fashion" target="_blank" data-image="">Visit
+                                    Dior
+                                    →</a></button>
+
+<<<<<<< HEAD
+                            <button><a href="https://renewaldior.netlify.app" target="_blank">Renewal Dior
+=======
+                            <button><a href="renewaldior.netlify.app" target="_blank">Renewal Dior
+>>>>>>> 4b71ad4dbb3de80f46d812e261c293050b1e0c14
+                                    →</a></button>
+                        </div>
+                    </div>
+                </div> <!-- Dior -->
+                <div class="cover">
+                    <div class="second-perallel"></div>
+                </div>
+
+
+            </div> <!-- re-cont -->
+        </div> <!-- page4 -->
+
+        <div id="page3">
+            <h1>PROJECT</h1>
+            <div class="page3-part1">
+
+                <div class="service-container">
+                    <img class="sushicon2" src="img/free-icon-sushi-3386664.png" alt="">
+                    <img class="sushicon" src="img/free-icon-sushi-3259041.png" alt="">
+                    <img src="img/Group 3.png" alt="">
+                    <div class="section-b">
+                        <div class="col1">
+                            <div class="maintxt">
+                                <img class="mm" src="img/mouse.png" alt="">
+                                <img src="img/Group 5.png" alt="">
+                                <h2>SUSHI UI/UX <br>RESPONSIVE SITE</h2>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <h3>Tool : HTML, CSS, Javascript &amp; jQuery</h3>
+                            <p>스시를 주문하는 사이트에 <span>반응형 중심</span>으로 기획후 제작된 사이트입니다.</p>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <a href="javascript:void(0)"
+                            onclick="window.open('https://ornate-kelpie-29c21b.netlify.app/','웹표준모바일사이트','top=100,left=300,width=400,height=818')">Mobile
+                            ver.</a>
+                        <a href="javascript:void(0)"
+                            onclick="window.open('https://ornate-kelpie-29c21b.netlify.app/','웹표준모바일사이트','top=100,left=300,width=780,height=818')">Tablet
+                            ver.</a>
+                        <a href="https://ornate-kelpie-29c21b.netlify.app/">PC ver.</a>
+                    </div>
+
+                </div><!-- service-container -->
+
+                <div class="web">
+                    <img class="res-1" src="img/macmock-up.png" alt="">
+                    <div class="moniter_wrap1"></div>
+                    <img class="res-3" src="img/tabmockup.png" alt="">
+                    <div class="tablet_wrap"></div>
+                    <img class="res-5" src="img/phonemockuppng.png" alt="">
+                    <div class="phone_wrap"></div>
+                </div> <!-- web -->
+
+            </div><!-- page3-part1 -->
+            <div class="page3-part2">
+                <div class="web2">
+                    <img class="res-2" src="img/macmock-up.png" alt="">
+                    <div class="moniter_wrap2"> </div>
+                    <img class="res-4" src="img/tabmockup.png" alt="">
+                    <div class="tablet_wrap2"></div>
+                    <img class="res-6" src="img/phonemockuppng.png" alt="">
+                    <div class="phone_wrap2"></div>
+                </div>
+                <div class="service-container2">
+                    <img class="sushicon2" src="img/free-icon-laptop-413837.png" alt="">
+                    <img class="sushicon" src="img/free-icon-mouse-clicker-5747288.png" alt="">
+                    <img src="img/Group 3.png" alt="">
+                    <div class="section-b2">
+                        <div class="col1">
+                            <div class="maintxt">
+                                <img class="mm" src="img/mouse.png" alt="">
+                                <img src="img/Group 6.png" alt="">
+                                <h2>MUSIGN UI/UX <br>RESPONSIVE SITE</h2>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <h3>Tool : HTML, CSS, Javascript &amp; jQuery</h3>
+                            <p>기존에 있는 브랜딩 전문 디자인 사이트를 <span>반응형 중심</span>으로 기획후 제작된 사이트입니다.</p>
+                        </div>
+                    </div>
+                    <div class="col3">
+                        <a href="javascript:void(0)"
+                            onclick="window.open('https://scintillating-kelpie-416e98.netlify.app','웹표준모바일사이트','top=100,left=300,width=400,height=818')">Mobile
+                            ver.</a>
+                        <a href="javascript:void(0)"
+                            onclick="window.open('https://scintillating-kelpie-416e98.netlify.app','웹표준모바일사이트','top=100,left=300,width=780,height=818')">Tablet
+                            ver.</a>
+                        <a href="https://scintillating-kelpie-416e98.netlify.app">PC ver.</a>
+                    </div>
+
+                </div><!-- service-container -->
+            </div><!-- page3-part2 -->
+
+        </div> <!-- page3 -->
+
+        <div id="page5">
+            <div class="port_wrap">
+                <h3 class="port_title">Web publishing</h3>
+                <div class="port_desc">
+                    <div class="port port1">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>01</span>
+                        <a href="https://zingy-kheer-0c4bf7.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>WEB STANDARD</h3>
+                        <p> HTML으로 각 섹션과 페이지 명확하게 구분하고 CSS를 활용하여 사이트를 시각적으로 매력적으로 디자인했습니다.또한,jQuery를 사용하여 인터랙티브한 기능을
+                            구현한 사이트입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript &amp; jQuery</p>
+                        <a class="p5-btn" href="https://zingy-kheer-0c4bf7.netlify.app" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port2">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>02</span>
+                        <a href="https://wondrous-pony-f4638a.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>HANA CARD</h3>
+                        <p>HTML으로 섹션을 구분하고 css로 애니메이션을 구성하며 시각적인 효과를 주었고 jQuery를 사용하여 동적인 기능을 추가했습니다. 실제 하나카드 웹사이트를 토대로
+                            구현한 사이트입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript &amp; jQuery</p>
+                        <a class="p5-btn" href="https://wondrous-pony-f4638a.netlify.app" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port3">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>03</span>
+                        <a href="https://subtle-kleicha-3b5f66.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>MOON NIGHT</h3>
+                        <p> HTML으로 섹션을 구분하고 css로 애니메이션을 구성하며 스크롤에 반응하는 애니메이션 효과를 입혀 보다 더 입체감이 뛰어난 인상적인 사이트 입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript &amp; jQuery</p>
+                        <a class="p5-btn" href="https://subtle-kleicha-3b5f66.netlify.app/" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port4">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>04</span>
+                        <a href="https://keen-salmiakki-db62ea.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>CLIP-PATH</h3>
+                        <p>디자인 툴 활용하여 트랜디한 분위기, 색감을 통해 부드러운 느낌의 디자인과 지루하지 않은 애니메이션 효과들을 구현하는 사이트 입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript &amp; jQuery</p>
+                        <a class="p5-btn" href="https://keen-salmiakki-db62ea.netlify.app" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port5">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>05</span>
+                        <a href="https://poetic-dragon-9e727a.netlify.app/" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>GSAP-SNAP</h3>
+                        <p>트랜디한 분위기, 색감, 스크롤을 통한 작업물을 보여주는 스토리가 담긴 포트폴리오 입니다. 중간 중간에 트랜디한 디자인과 위트있는 애니메이션 효과들이
+                            인상적인 사이트 입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript</p>
+                        <a class="p5-btn" href="https://poetic-dragon-9e727a.netlify.app/" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port6">
+                        <video autoplay muted loop src="img/thisismagma.mp4"></video>
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>06</span>
+                        <a href="https://wondrous-florentine-5e2bcb.netlify.app/" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>THIS IS MAGMA</h3>
+                        <p>스피드함과 동영상, 스크롤을 통한 반응을 주었고 JavaScript를 활용하여 중간에 트랜디한 디자인과 위트있는 애니메이션 효과들이
+                            인상적인 사이트 입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript </p>
+                        <a class="p5-btn" href="https://wondrous-florentine-5e2bcb.netlify.app/" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port7">
+                        <video autoplay muted loop src="img/cyberfiction.mp4"></video>
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>07</span>
+                        <a href="https://incandescent-gumdrop-f79927.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>3D CYBERFICTION</h3>
+                        <p>JavaScript를 활용하여 마우스 스크롤에 반응하는 동적인 효과를 바탕으로 3D 이미지와 JavaScript 기술을 결합하여 입체감 구현한 사이트입니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript</p>
+                        <a class="p5-btn" href="https://incandescent-gumdrop-f79927.netlify.app" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+                    <div class="port port8">
+                        <img class="p5web" src="img/macmock-up.png" alt="">
+                        <span>08</span>
+                        <a href="https://vocal-meringue-ea59dd.netlify.app" target="_blank" class="imgct"
+                            title="홍길동 포트폴리오"></a>
+                        <h3>NAVER</h3>
+                        <p>HTML,CSS로 기본적인 구성을 제작하고 JavaScript와 정규식을 활용하여 실제 네이버 회원가입 페이지 창을 참고하여 구현해보았습니다.</p>
+                        <p class="tool">Tool : HTML, CSS, Javascript</p>
+                        <a class="p5-btn" href="https://vocal-meringue-ea59dd.netlify.app" target="_blank">Show
+                            more →</a>
+                    </div> <!-- //port -->
+
+
+
+                </div> <!-- //port_desc -->
+            </div> <!-- //port_wrap -->
+        </div> <!-- page5 -->
+
+        <div id="page7">
+            <h1>CONTENTS</h1>
+            <div class="contents">
+
+                <div class="c-desc">
+                    <div id="FIGMA" class="tabcontent2">
+                        <div class="story1">
+                            <div class="s1top">
+                                <img class="f2" src="img/macmock-up.png" alt="">
+                                <div class="phone_wrap3"></div>
+                            </div> <!-- s1top -->
+                            <div class="s1bottom">
+                                <div class="bd1-left">
+                                    <h2>trip website</h2>
+                                    <p>1. 작업기여시간 : 4시간 </p>
+                                    <p>2. 사용 툴 : figma, dora-run, sketchfab</p>
+                                    <p>3. 참여 : 개인프로젝트</p>
+                                </div>
+                                <div class="bd1-right">
+                                    <h2>overview</h2>
+                                    <p>실제 여행 사이트를 figma를 통해 똑같이 재현해 보았으며, <br>dora-run 프로그램과 sketchfab사이트의 3D이미지를
+                                        <br>추가하여 입체감 있는 구성을 시도해보았습니다.</p>
+                                    <a href="https://n1uhiv3d.dora.run/">trip website</a>
+                                </div>
+                            </div><!-- s1bottom -->
+                        </div> <!-- story1 -->
+                        <div class="story2">
+                            <div class="s2top">
+                                <img src="img/Group_5-removebg-preview.png" alt="">
+                            </div> <!-- s2top -->
+                            <div class="s2bottom">
+                                <div class="bd2-left">
+                                    <h2>fashion App</h2>
+                                    <p>1. 작업기여시간 : 4일 </p>
+                                    <p>2. 사용 툴 : figma</p>
+                                    <p>3. 참여 : 개인프로젝트</p>
+                                </div>
+                                <div class="bd2-right">
+                                    <h2>overview</h2>
+                                    <p>패션 앱을 피그마프로그램을 시안을 구성하였으며, <br>상품페이지와 로그인 페이지 중심으로 제작하였습니다. </p>
+                                </div>
+                            </div> <!-- s2bottom -->
+                        </div> <!-- story2 -->
+                    </div> <!-- #FIGMA -->
+
+                    <div id="PHOTOSHAP" class="tabcontent2">
+                        <div class="phst1">
+                            <div class="story1">
+                                <div class="s1left">
+                                    <img src="img/다운로드.png" alt="">
+                                </div> <!-- s1left -->
+                                <div class="s1right">
+                                    <div class="bd1-top">
+                                        <h2>리플렛 디자인</h2>
+                                        <p>1. 작업기여시간 : 5시간 </p>
+                                        <p>2. 사용 툴 : photoshap, powerpoint,illustate</p>
+                                        <p>3. 설명 : 내 자신을 브랜딩 하는 리플렛 제작 <br>
+                                            <span>아이폰 설정 화면에 영감받아 제작</span></p>
+                                    </div>
+                                </div><!-- s1right -->
+                            </div> <!-- story1 -->
+                            <div class="story2">
+                                <div class="s2top">
+                                    <img src="img/group12.png" alt="">
+                                </div> <!-- s2top -->
+                                <div class="s2bottom">
+                                    <div class="bd2-top">
+                                        <h2>인스타그램 계정 컨텐츠 기획 및 운영</h2>
+                                        <p>1. 작업기여시간 : 카드뉴스 하나당 2시간 </p>
+                                        <p>2. 참여 : 기획, 카드뉴스제작, 계정운영</p>
+                                        <p>3. 설명 : 인스타그램을 통해 샐러드가게와 건강식단 소개. <br>
+                                            <span>친근감 & 브랜딩 위한 마스코트 활용</span>
+                                        </p>
+                                        <a href="https://www.instagram.com/salad_a_sac/" target="_blank">salad_a_sac 계정 보기</a>
+                                    </div>
+                                </div> <!-- s2bottom -->
+                            </div> <!-- story2 -->
+                        </div> <!-- phst1 -->
+                        <div class="phst2">
+                            <div class="story3">
+                                <div class="s1left">
+                                    <img src="img/pts1.jpg" alt="">
+                                    <img src="img/pts2.png" alt="">
+                                </div> <!-- s1left -->
+                                <div class="s1right">
+                                    <div class="bd1-top">
+                                        <h2>유튜브 썸네일 제작</h2>
+                                        <p>1. 작업기여시간 : 1시간 </p>
+                                        <p>2. 사용 툴 : photoshap</p>
+                                        <p>3. 설명 : 취미용 유튜브 브이로그 썸네일</p>
+                                    </div>
+
+                                </div><!-- s1right -->
+                            </div> <!-- story3 -->
+                            <div class="story4">
+                                <div class="s2top">
+                                    <img src="img/group14.png" alt="">
+                                </div> <!-- s2top -->
+                                <div class="s2bottom">
+                                    <div class="bd2-top">
+                                        <h2>YBM 카드뉴스 제작의뢰</h2>
+                                        <p>1. 작업기여시간 : 카드뉴스 하나당 4-50분 </p>
+                                        <p>2. 참여 : 개인 프로젝트</p>
+                                        <p>3. 설명 : YBM 중국어 홍민영 강사 중국어 회화 ,<br><span>영화 및 드라마 명대사소개</span>
+                                        </p>
+                                    </div><!-- bd2-top -->
+                                </div> <!-- s2bottom -->
+                            </div> <!-- story4 -->
+                        </div> <!-- phst2 -->
+                    </div> <!-- #PHOTOSHAP -->
+
+                    <div id="PREMIEREPRO" class="tabcontent2">
+                        <div class="story1">
+                            <div class="s1top">
+                                <img src="img/preme1.png" alt="">
+                                <img src="img/preme2.png" alt="">
+                            </div> <!-- s1top -->
+                            <div class="s1center">
+                                <img src="img/preme3.png" alt="">
+                                <img src="img/preme4.png" alt="">
+                                <img src="img/preme5.png" alt="">
+                            </div> <!-- s1center -->
+                            <div class="s1bottom">
+                                <div class="bd1-left">
+                                    <h2>블루투스 이어폰 홍보영상</h2>
+                                    <p>1. 작업기여시간 : 5일 </p>
+                                    <p>2. 참여 : 기획, 출연</p>
+                                    <p>3. 설명 : 한 댄서가 춤을 추기 위해 안무를 만들어보지만 아이디어 고갈로 힘들어함. <br>
+                                        <span>그때 댄서가 주머니에서 블루투스 이어폰을 꺼내고 노래를 듣는다.</span> <br>
+                                        <span>바로 그때 화려한 무대가 펼쳐짐. 댄서는 노래에 맞게 퍼포먼스를 
+                                        보여준다.</span> <br> <span>춤 동작 마무리 하며 블루투스 이어폰 줌 인.</span>
+                                        </p>
+                                </div>
+                            </div><!-- s1bottom -->
+                        </div> <!-- story1 -->
+                        <div class="story2">
+                            <div class="s2top">
+                                <div class="stsec1">
+                                    <img src="img/preme6.png" alt="">
+                                    <img src="img/preme7.png" alt="">
+                                </div>
+                                <div class="stsec2">
+                                    <img src="img/preme8.png" alt="">
+                                    <img src="img/preme9.png" alt="">
+                                </div>
+                                <div class="stsec3">
+                                    <img src="img/preme10.png" alt="">
+                                    <img src="img/preme11.png" alt="">
+                                </div>
+                            </div> <!-- s2top -->
+                            <div class="s2bottom">
+                                <div class="bd2-left">
+                                    <h2>nura 홍보영상 및 부산대학교 로켓동아리 인터뷰영상</h2>
+                                    <p>1. 작업기여시간 : 기획, 촬영, 편집 총 3주</p>
+                                    <p>2. 참여 : 기획, 촬영, 편집</p>
+                                    <p>3. 설명 : 
+                                        2박 3일 동안의 로켓 학술회 스케줄들을 TV프로그램 ‘아무튼 출근’ 영상 편집 컨셉으로 <br>
+                                        <span>오프닝영상 , 학회 발표 영상 , 학회 수상 영상, 인터뷰 예고영상 차례로 나열</span></p>
+                                </div>
+
+                            </div> <!-- s2bottom -->
+                        </div> <!-- story2 -->
+                    </div> <!-- #PREMIEREPRO -->
+
+                    <div id="PPT" class="tabcontent2">
+                        <div class="story1">
+                            <div class="s1left">
+                                <img src="img/ppt1.png" alt="">
+                                <img src="img/ppt2.png" alt="">
+                                <img src="img/ppt3.png" alt="">
+                            </div> <!-- s1left -->
+                            <div class="s1right">
+                                <div class="bd1-top">
+                                    <h2>오렌토 마케팅 제안서 디자인 및 기획</h2>
+                                    <p>1. 작업기여시간 : 2주</p>
+                                    <p>2. 사용 툴 : photoshap, powerpoint</p>
+                                    <p>3. 참여 : 제안서 구성, 제안서 컨셉 및 컬러, 컨텐츠 디자인</p>
+                                </div>
+                                <div class="bd1-bottom">
+                                    <h2>overview</h2>
+                                    <p>렌탈 어플 오렌토 인지도 상승을 위해 소비자의 감성을 자극하여 각인 시키는 감성마케팅 전략 ‘당신의 일상을 채우는 오렌토’
+                                        컨셉을 가지고 광고, 플래쉬 게임 등의 아이디어를 컨텐츠로 기획 후 제작</p>
+                                    <a href="https://drive.google.com/file/d/1JP6RKvTTIcn9JQWSObfYSjTQDbWvxd5z/view?usp=sharing" target="_blank">오렌토 마케팅 제안서</a>
+                                </div>
+                            </div><!-- s1bottom -->
+                        </div> <!-- story1 -->
+                        <div class="story2">
+                            <div class="s2left">
+                                <img src="img/ppt4.png" alt="">
+                                <img src="img/ppt5.png" alt="">
+                                <img src="img/ppt6.png" alt="">
+                            </div> <!-- s2left -->
+                            <div class="s2right">
+                                <div class="bd2-top">
+                                    <h2>미강뷰티 마케팅 제안서 디자인 및 기획</h2>
+                                    <p>1. 작업기여시간 : 3일 </p>
+                                    <p>2. 사용 툴 : powerpoint, photoshap</p>
+                                    <p>3. 참여 : 제안서 컨셉, ppt 컬러, 컨텐츠 디자인</p>
+                                </div>
+                                <div class="bd2-bottom">
+                                    <h2>overview</h2>
+                                    <p>오프라인 피부관리 샵 미강뷰티 인지도 확산을 위해 미강뷰티만의 건강한 뷰티 키워드 ‘약초필링’이라는 컨셉을 제시하여
+                                        타겟 소비자 SNS 이용 분석을 통한 타겟을 사로잡을 컨텐츠들을 기획  </p>
+                                    <a href="https://drive.google.com/file/d/1Q2WIZ50HBrFDMoDDofWCl-B26SD_ZHqc/view?usp=sharing" target="_blank">미강뷰티 마케팅 제안서</a>
+                                </div>
+                            </div> <!-- s2right -->
+                        </div> <!-- story2 -->
+                    </div> <!-- #PPT -->
+
+                </div> <!-- c-desc" -->
+
+                <div class="c-show">
+                    <div class="lasttab">
+                        <button class="tablinks2" id="defaultOpen2" onclick="openContent(event,'FIGMA')">FIGMA </button>
+                        <button class="tablinks2" onclick="openContent(event,'PHOTOSHAP')">PHOTOSHAP</button>
+                        <button class="tablinks2" onclick="openContent(event,'PREMIEREPRO')">PREMIERE
+                            PRO</button>
+                        <button class="tablinks2" onclick="openContent(event,'PPT')">PPT</button>
+
+                    </div> <!-- lasttab -->
+
+                </div> <!-- c-show -->
+
+            </div> <!-- contents -->
+        </div> <!-- page7 -->
+
+        <div id="page6">
+            <div class="strao">
+                <h1>CONTACT ME</h1>
+            </div><!-- strao -->
+            <div class="ctm">
+                <h2>Let's create something together <span>Email me</span></h2>
+                <h2>Let's create something together <span>Email me</span></h2>
+                <h2>Let's create something together <span>Email me</span></h2>
+                <h2>Let's create something together <span>Email me</span></h2>
+                <h2>Let's create something together <span>Email me</span></h2>
+                <h2>Let's create something together <span>Email me</span></h2>
+            </div>
+            <div class="container">
+                <div class="gallery">
+                    <div class="row">
+                        <div class="item">
+                            <div class="index">
+                                <p>1</p>
+                            </div>
+                            <div class="img">
+                                <img src="img/cont1.jpg" alt="" />
+                            </div>
+                        </div> <!-- item -->
+                        <div class="item">
+                            <div class="index">
+                                <p>2</p>
+                            </div>
+                            <div class="img">
+                                <img src="img/cont2.jpg" alt="" />
+                            </div>
+
+
+
+                        </div><!-- item -->
+                        <div class="item">
+                            <div class="index">
+                                <p>3</p>
+                            </div>
+                            <div class="img">
+                                <img src="img/cont3.jpg" alt="" />
+                            </div>
+                        </div> <!-- item -->
+                        <div class="item">
+                            <div class="index">
+                                <p>4</p>
+                            </div>
+                            <div class="img">
+                                <img src="img/cont4.jpg" alt="" />
+                            </div>
+                        </div><!-- item -->
+
+                    </div> <!-- row -->
+                    <div class="preview">
+                        <div class="preview-container">
+                            <img src="img/cont1.jpg" alt="" />
+                        </div>
+                        <p> "열린 사고와 뛰어난 본질 파악 능력을 갖추고 있습니다.<br> 뛰어난 판단력과 문제 해결 능력을 자랑합니다. <br> 저의 강점인 찰떡같은 소통력과
+                            함께 쌓인
+                            탄탄한
+                            기본기를 토대로, 다양한 프로젝트를 이끌어가고싶습니다."
+                        </p>
+                    </div> <!-- preview -->
+
+
+                    <div id="page7">
+
+                    </div> <!-- page7 -->
+
+                </div><!-- gallery -->
+                <div class="page15">
+                    <div class="innervd">
+                        <p>i'm waiting to contact</p>
+                        <img src="https://i.pinimg.com/564x/c0/71/42/c071425c6767ce7c62bae5287e19283c.jpg" alt="">
+                        <video autoplay muted loop src="img/KakaoTalk_20240124_144558554.mp4"></video>
+                    </div>
+                    <div class="innerpad">
+                        <div class="page15-inner">
+                            <a href="#">PHONE. <span>010.8411.2420</span></a>
+                            <i class="ri-arrow-right-up-line"></i>
+                            <div class="center15"></div>
+                        </div>
+                        <div class="page15-inner">
+                            <a href="mailto:karen9716@naver.com">EMAIL. <span>karen9716@naver.com</span></a>
+                            <i class="ri-arrow-right-up-line"></i>
+                            <div class="center15"></div>
+
+                        </div>
+                        <div class="page15-inner">
+                            <a href="https://www.instagram.com/i_mhoduyam/" target="_blank">Instagram.
+                                <span>@i_m_hoduyam</span></a>
+                            <i class="ri-arrow-right-up-line"></i>
+                            <div class="center15"></div>
+                        </div>
+                    </div> <!-- innerpad -->
+                </div><!-- //page15 -->
+            </div> <!-- container -->
+        </div> <!-- page6 -->
+
+    </div><!-- main -->
+
+
+
+
+    <!-- script -->
+    <script src='https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.28/bundled/lenis.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script>
+        var setVanta = () => {
+            if (window.VANTA) window.VANTA.CLOUDS({
+                el: "#page4",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 190.00,
+                speed: 1.50
+            })
+        }
+        _strk.push(function () {
+            setVanta()
+            window.edit_page.Event.subscribe("Page.beforeNewOneFadeIn", setVanta)
+        })
+    </script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
