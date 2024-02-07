@@ -219,8 +219,8 @@ function marqueeText(count, element, direction) {
     // .scrollHeight --> 보이지 않는 공간이라도 그 공간의 높이값을 불러낸다.
     // 보이지않는 공간일지라도 스크롤해서 확인할 수 있는 공간의 높이
     // .scrollWidth --> 
-    console.log("element.scrollWidth" + element.scrollWidth)
-    console.log("count" + count)
+    //console.log("element.scrollWidth" + element.scrollWidth)
+    //console.log("count" + count)
     if (count > element.scrollWidth / 2) {
         count = 0;
         element.style.transform = `translate(0,0)`;
@@ -327,53 +327,55 @@ setInterval(simulateImageClick, 3000);
 
 const horSection = gsap.utils.toArray('.port_desc .port')
 //모든 요소들을 horSection이라는 변수에 배열로 저장한다. (gsap.utils.toArray)
-//console.log(horSection)//Array(20)
+console.log(horSection)//Array(20)
 const horiz = gsap.to(horSection, {
     //x: (- 94 * (horSection.length - 1)) + "%",
-    xPercent: -70 * (horSection.length - 1),
+    xPercent: - 70 * (horSection.length - 1),
     scrollTrigger: {
-        trigger: '.port_desc',
-        start: 'top top',
-        end: '+=100', //애니메이션이 시작되는 지점으로 부터 + 5000px 떨어진곳에 도착하면 애니메이션이 끝남.
+        trigger: '#page5',
+        start: '1% top',
+        end: '+=300%', //애니메이션이 시작되는 지점으로 부터 + 5000px 떨어진곳에 도착하면 애니메이션이 끝남.
+        pin:true,
         scrub: 1, //스크롤에 반응 false: 애니메이션 (숫자이용이 더 부드럽게 표현됨)
         //sticky처럼 화면 고정
+       // markers:true,
     }
 })
 //gsap.to : 어떻게 되어라 
 
 
 
-gsap.to("#page5", {
-    scrollTrigger: {
-        trigger: "#page5",
-        start: "+=50 ",
-        end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
-        pin: true,
-    },
-    opacity: 1,
-});
+// gsap.to("#page5", {
+//     scrollTrigger: {
+//         trigger: "#page5",
+//         start: "+=50 ",
+//         end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
+//         pin: true,
+//     },
+//     opacity: 1,
+// });
 
-gsap.to("#page6", {
-    scrollTrigger: {
-        trigger: "#page6",
-        start: "top top",
-        end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
-        scrub:true,
+// gsap.to("#page6", {
+//     scrollTrigger: {
+//         trigger: "#page6",
+//         start: "top top",
+//         end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
+//         scrub:true,
 
-    },
-    opacity: 1,
-});
+//     },
+//     opacity: 1,
+// });
 
-gsap.to("#page7", {
-    scrollTrigger: {
-        trigger: "#page7",
-        start: "top top",
-        end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
-        scrub:true,
+// gsap.to("#page7", {
+//     scrollTrigger: {
+//         trigger: "#page7",
+//         start: "top top",
+//         end: "bottom top", //바닥이 화면의 40%에 왔을때 끝나라
+//         scrub:true,
         
-    },
-    opacity: 1,
-});
+//     },
+//     opacity: 1,
+// });
 
 //--------------------------------------------
 //🤍page7  tap menu
@@ -391,6 +393,3 @@ function openContent(e, cityName) {
 }
 
 document.getElementById('defaultOpen2').click();
-
-
-
